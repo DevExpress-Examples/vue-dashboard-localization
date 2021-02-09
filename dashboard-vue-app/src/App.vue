@@ -13,7 +13,8 @@ import { ResourceManager } from 'devexpress-dashboard';
 import { locale } from "devextreme/localization";
 
 export default {
-    created: function() {        
+    created: function() {    
+      // Localize the Web Dashboard UI for the German market (the 'de' culture):
       var culture = "de";
       ResourceManager.setLocalizationMessages(require(`../json resources/dx-dashboard.${culture}.json`));
       ResourceManager.setLocalizationMessages(require(`../json resources/dx-analytics-core.${culture}.json`));
