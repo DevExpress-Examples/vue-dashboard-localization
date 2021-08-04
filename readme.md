@@ -42,6 +42,9 @@ In the **asp-net-core-server** folder run the following command:
 ```
 dotnet run
 ```
+
+See the following section for information on how to install NuGet packages from the DevExpress NuGet feed: [Install DevExpress Controls Using NuGet Packages](https://docs.devexpress.com/GeneralInformation/115912/installation/install-devexpress-controls-using-nuget-packages).
+
 > This server allows CORS requests from _all_ origins with _any_ scheme (http or https). This default configuration is insecure: any website can make cross-origin requests to the app. We recommend that you specify the client application's URL to prohibit other clients from accessing sensitive information stored on the server. Learn more: [Cross-Origin Resource Sharing (CORS)](https://docs.devexpress.com/Dashboard/400709)
 
 In the **dashboard-vue-app** folder, run the following commands:
@@ -56,7 +59,7 @@ Open ```http://localhost:8080/``` in your browser to see the result.
 ## Documentation
 
 - [Localize Dashboard Component for Vue](https://docs.devexpress.com/Dashboard/402537/web-dashboard/dashboard-component-for-vue/localization)
-
+- [Install DevExpress Controls Using NuGet Packages](https://docs.devexpress.com/GeneralInformation/115912/installation/install-devexpress-controls-using-nuget-packages)
 
 ## More Examples
 
