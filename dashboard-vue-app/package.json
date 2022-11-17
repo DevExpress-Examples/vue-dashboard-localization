@@ -3,18 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
-    "@devexpress/analytics-core": "21.2-stable",
-    "devexpress-dashboard": "21.2-stable",
-    "devexpress-dashboard-vue": "21.2-stable",
-    "devextreme": "21.2-stable",
-    "devextreme-vue": "21.2-stable"
+    "@devexpress/analytics-core": "22.2-stable",
+    "devexpress-dashboard": "22.2-stable",
+    "devexpress-dashboard-vue": "22.2-stable",
+    "devextreme": "22.2-stable",
+    "devextreme-vue": "22.2-stable"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
