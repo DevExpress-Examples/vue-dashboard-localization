@@ -20,22 +20,17 @@ The example has the following structure:
 - The [dashboard-vue-app](dashboard-vue-app) folder contains the client application built with Vue.
 
 ### Client Localization
-<!-- default file list -->
-*Files to look at*:
+*Files to Review*:
 
 * [App.vue](./dashboard-vue-app/src/App.vue)
 
-<!-- default file list end -->
 
 The **dashboard-vue-app** project shows how to localize a client application with the [component-specific JSON files](https://docs.devexpress.com/Dashboard/402537/web-dashboard/dashboard-component-for-vue/localization#localize-ui) for the German market (the `de` culture). Intl is used to format to dates, numbers, and currencies.
 
 ### Server Localization
-<!-- default file list -->
-*Files to look at*:
+*Files to Review*:
 
 * [Startup.cs](./asp-net-core-server/Startup.cs#L45)
-
-<!-- default file list end -->
 
 Since the Web Dashboard exports data on the server side, you need to localize the server to complete the localization process. The **asp-net-core-server** project contains satellite resource assemblies for the German culture.
 
