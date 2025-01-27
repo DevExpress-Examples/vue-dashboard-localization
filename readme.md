@@ -26,21 +26,21 @@ The example has the following structure:
 * [App.vue](./dashboard-vue-app/src/App.vue)
 
 
-The **dashboard-vue-app** project shows how to localize a client application with the [component-specific JSON files](https://docs.devexpress.com/Dashboard/402537/web-dashboard/dashboard-component-for-vue/localization#localize-ui) for the German market (the `de` culture). Intl is used to format to dates, numbers, and currencies.
+The *dashboard-vue-app* project shows how to localize a client application with the [component-specific JSON files](https://docs.devexpress.com/Dashboard/402537/web-dashboard/dashboard-component-for-vue/localization#localize-ui) for the German market (the `de` culture). Intl is used to format to dates, numbers, and currencies.
 
 ### Server Localization
 *Files to Review*:
 
-* [Startup.cs](./asp-net-core-server/Startup.cs#L45)
+* [Startup.cs](./asp-net-core-server/Startup.cs#L51)
 
-Since the Web Dashboard exports data on the server side, you need to localize the server to complete the localization process. The **asp-net-core-server** project contains satellite resource assemblies for the German culture.
+Since the Web Dashboard exports data on the server side, you need to localize the server to complete the localization process. The *asp-net-core-server* project contains satellite resource assemblies for the German culture.
 
 
 ## Quick Start
 
 ### Server
 
-In the **asp-net-core-server** folder run the following command:
+In the *asp-net-core-server* folder run the following command:
 
 ```
 dotnet run
@@ -54,14 +54,14 @@ See the following section for information on how to install NuGet packages from 
 
 ### Client
 
-In the **dashboard-vue-app** folder, run the following commands:
+In the *dashboard-vue-app* folder, run the following commands:
 
 ```
 npm install
-npm run serve
+npm run dev
 ```
 
-Open ```http://localhost:8080/``` in your browser to see the result.
+Open your browser and navigate to the URL specified in the command output to see the result. The client Web Dashboard app uses data from the newly created server (`http://localhost:5000/api/dashboard`).
 
 ## Documentation
 
